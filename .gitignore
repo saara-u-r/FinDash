@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# React build
+dashboard/build/
+frontend/build/
+
+# Coverage / Testing
+coverage/
+*.lcov
+
+# Editor-specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Optional dependency lock files
+package-lock.json
+yarn.lock
+
+# MongoDB dump or data files (if generated)
+dump/
+*.mongodb
+
+# Mac swap/backup files
+*.swp
+*~
+
