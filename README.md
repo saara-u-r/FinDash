@@ -56,21 +56,25 @@
 ### 1. Clone the Repository
 ```bash```
 git clone https://github.com/your-username/fin-dash.git
+```bash```
 cd fin-dash
 ### 2. Backend setup
 ```bash```
 cd backend
+```bash```
 npm install
-# Create a .env file with the following:
+Create a .env file with the following:
 MONGODB_URI=your_mongo_connection_string
 PORT=5000
-
+```bash```
 npm start
 
 ### 3. Frontend Setup
 ```bash```
 cd ../dashboard
+```bash```
 npm install
+```bash```
 npm start
 
 
