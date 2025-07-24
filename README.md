@@ -34,72 +34,45 @@
 ---
 
 ## 📁 Project Structure
-FinDash/
-├── backend/
-│ ├── .env
-│ ├── index.js
-│ ├── package.json
-│ ├── model/
-│ │ ├── HoldingsModel.js
-│ │ ├── OrdersModel.js
-│ │ └── PositionsModel.js
-│ └── schemas/
-│ ├── HoldingsSchema.js
-│ ├── OrdersSchema.js
-│ └── PositionsSchema.js
-├── dashboard/
-│ ├── package.json
-│ ├── public/
-│ │ ├── index.html
-│ │ ├── logo.png
-│ │ └── robots.txt
-│ └── src/
-│ ├── index.js
-│ ├── index.css
-│ └── components/
-│ ├── Apps.js
-│ ├── BuyActionWindow.js
-│ ├── BuyActionWindow.css
-│ ├── Dashboard.js
-│ ├── DoughnutChart.js
-│ ├── Funds.js
-│ ├── GeneralContext.js
-│ ├── Holdings.js
-│ ├── Home.js
-│ ├── Menu.js
-│ ├── Orders.js
-│ └── Positions.js
 
+| Folder/File          | Description                                      |
+|----------------------|--------------------------------------------------|
+| `backend/`           | Node.js + Express backend                        |
+| ├── `.env`           | Environment variables (MongoDB URI, Port)        |
+| ├── `index.js`       | Entry point for the backend server               |
+| ├── `model/`         | Mongoose models (Holdings, Orders, Positions)    |
+| └── `schemas/`       | MongoDB schema definitions                       |
+| `dashboard/`         | React frontend for the trading dashboard         |
+| ├── `public/`        | Static assets (HTML, logo, robots.txt)           |
+| └── `src/`           | React components and global context              |
+|     ├── `components/`| Dashboard UI: Holdings, Orders, Charts, etc.     |
+|     ├── `index.js`   | React DOM renderer                               |
+|     └── `index.css`  | Global styles                                    |
 
 ---
 
 ## 🧪 How to Run Locally
 
 ### 1. Clone the Repository
-```bash
+```bash```
 git clone https://github.com/your-username/fin-dash.git
 cd fin-dash
-
 ### 2. Backend setup
+```bash```
 cd backend
 npm install
-# Create a .env file with:
-# MONGODB_URI=your_mongo_connection_string
-# PORT=5000
+# Create a .env file with the following:
+MONGODB_URI=your_mongo_connection_string
+PORT=5000
+
 npm start
 
 ### 3. Frontend Setup
+```bash```
 cd ../dashboard
 npm install
 npm start
 
-##✨ Future Improvements
-🔒 User authentication (login/signup)
 
-📡 Real-time stock price updates using WebSockets or third-party APIs
-
-📈 Integration with live market data (e.g., Yahoo Finance or NSE APIs)
-
-📊 More advanced analytics and trade history
 
 
