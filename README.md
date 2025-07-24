@@ -78,5 +78,14 @@ npm install
 npm start
 
 
+## 📌 Project Badges
+
+![GitHub stars](https://img.shields.io/github/stars/saara-u-r/FinDash?style=social)
+![GitHub forks](https://img.shields.io/github/forks/saara-u-r/FinDash?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/saara-u-r/FinDash)
+![Tech Stack](https://img.shields.io/badge/Stack-MERN-green)
+![License](https://img.shields.io/github/license/saara-u-r/FinDash)
+
+
 
 
